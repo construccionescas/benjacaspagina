@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Benja Cas Arquitectura e Ingeniería</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f5f5f5;
+color:#333;
+}
+
+/* MENU */
+
+header{
+background:#111;
+color:white;
+padding:15px;
+position:fixed;
+width:100%;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin:15px;
+}
+
+/* PORTADA */
+
+.hero{
+
+height:100vh;
+
+background:url('casa.jpg');
+
+background-size:cover;
+
+background-position:center;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:50px;
+
+}
+
+.boton{
+
+background:#6b7a40;
+
+color:white;
+
+padding:15px 30px;
+
+text-decoration:none;
+
+border-radius:5px;
+
+display:inline-block;
+
+margin-top:20px;
+
+}
+
+/* SECCIONES */
+
+section{
+
+padding:80px 20px;
+
+margin-top:40px;
+
+}
+
+.titulo{
+
+text-align:center;
+
+font-size:35px;
+
+margin-bottom:40px;
+
+}
+
+/* SERVICIOS */
+
+.servicios{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.servicio{
+
+background:white;
+
+padding:20px;
+
+margin:10px;
+
+width:250px;
+
+box-shadow:0px 0px 10px gray;
+
+text-align:center;
+
+}
+
+/* PROYECTOS */
+
+.galeria{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+.galeria img{
+
+width:300px;
+
+margin:10px;
+
+border-radius:10px;
+
+}
+
+/* CONTACTO */
+
+.contacto{
+
+background:#222;
+
+color:white;
+
+text-align:center;
+
+padding:50px;
+
+}
+
+footer{
+
+background:black;
+
+color:white;
+
+text-align:center;
+
+padding:20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+Benja Cas
+
+</div>
+
+<div class="menu">
+
+<a href="#inicio">Inicio</a>
+
+<a href="#servicios">Servicios</a>
+
+<a href="#proyectos">Proyectos</a>
+
+<a href="#contacto">Contacto</a>
+
+</div>
+
+</nav>
+
+</header>
+
+
+
+<section id="inicio" class="hero">
+
+<div>
+
+<h1>
+
+DISEÑAMOS<br>
+
+PROYECTAMOS<br>
+
+Y CONSTRUIMOS
+
+</h1>
+
+<p>
+
+Arquitectura e Ingeniería
+
+</p>
+
+<a href="https://wa.me/525628483063" class="boton">
+
+Cotiza tu proyecto
+
+</a>
+
+</div>
+
+</section>
+
+
+
+<section id="servicios">
+
+<h2 class="titulo">
+
+Nuestros Servicios
+
+</h2>
+
+<div class="servicios">
+
+<div class="servicio">
+
+<h3>
+
+Diseño Arquitectónico
+
+</h3>
+
+<p>
+
+Diseños modernos y funcionales.
+
+</p>
+
+</div>
+
+
+
+<div class="servicio">
+
+<h3>
+
+Servicios de Ingeniería
+
+</h3>
+
+<p>
+
+Cálculo estructural e instalaciones.
+
+</p>
+
+</div>
+
+
+
+<div class="servicio">
+
+<h3>
+
+Proyecto Ejecutivo
+
+</h3>
+
+<p>
+
+Planos completos para construcción.
+
+</p>
+
+</div>
+
+
+
+<div class="servicio">
+
+<h3>
+
+Supervisión de Obra
+
+</h3>
+
+<p>
+
+Seguimiento profesional.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="proyectos">
+
+<h2 class="titulo">
+
+Nuestros Proyectos
+
+</h2>
+
+<div class="galeria">
+
+<img src="SALA2.jpg">
+
+<img src="casa2.jpg">
+
+<img src="casa3.jpg">
+
+</div>
+
+</section>
+
+
+
+<section id="contacto" class="contacto">
+
+<h2>
+
+Cotiza tu proyecto
+
+</h2>
+
+<p>
+
+WhatsApp
+
+</p>
+
+<h3>
+
+562 848 3063
+
+</h3>
+
+<a href="https://wa.me/525628483063" class="boton">
+
+Enviar mensaje
+
+</a>
+
+</section>
+
+
+
+<footer>
+
+Benja Cas Arquitectura e Ingeniería
+
+<br>
+
+Diseño | Ingeniería | Construcción
+
+</footer>
+
+
+</body>
+
+</html>
